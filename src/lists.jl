@@ -14,7 +14,7 @@ println(z)
 append!(y, z)
 println(y)
 
-push!(y, "hi")
+push!(y, "hi", "bob")
 println(y)
 
 println(zeros(10))
